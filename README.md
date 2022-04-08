@@ -15,6 +15,10 @@ The slope of the linear model is *not* considered to be zero
 
 ## Summary Statistics on Suspension Coils
 ![D2_total_summary](https://user-images.githubusercontent.com/95504135/162497535-6fbcbad6-a9a6-41ce-a1f9-c7790208d3b5.png)
+*Total Summary*
+
+![D2_lot_summary](https://user-images.githubusercontent.com/95504135/162502196-1a5710cc-2acb-4fa9-a2a0-a1918ce504ec.png)
+*Lot Summary*
 
 * The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 * Use screenshots
