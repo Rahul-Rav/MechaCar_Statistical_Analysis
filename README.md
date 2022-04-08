@@ -1,8 +1,15 @@
 # MechaCar_Statistical_Analysis
 
 ## Linear Regression to Predict MPG
-* Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+![linear_regression](https://user-images.githubusercontent.com/95504135/162359105-3c9238e3-354a-46c8-977a-7005c8ef3604.png)
+![d1_summary](https://user-images.githubusercontent.com/95504135/162359419-27d87373-8d88-4f8e-b6f1-7eabf0965bfd.png)
+
+The variables 'vehicle_wieght', 'spolier_angle', and 'AWD' provide a non-random amount of variance to the mpg values in teh dataset.
+But, 'ground_clearance' and 'vehicle_length' provided random amounts of variance.
+
 * Is the slope of the linear model considered to be zero? Why or why not?
+The slope of the linear model is *not* considered to be zero 
+
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 * Use a screenshot
 
