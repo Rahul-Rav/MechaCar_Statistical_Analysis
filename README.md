@@ -24,6 +24,12 @@ The slope of the linear model is *not* considered to be zero
 * Use screenshots
 
 ## T-Tests on Suspension Coils
+![D3_t_test](https://user-images.githubusercontent.com/95504135/162547753-ae07da8d-7145-44ed-8099-570e515523e6.png)
+
+![D3_lot1_t_test](https://user-images.githubusercontent.com/95504135/162547780-3cf63529-4a95-4b67-b848-0c1ac5173a46.png)
+![D3_lot2_t_test](https://user-images.githubusercontent.com/95504135/162547783-5feb5e15-f5d0-42bd-b8b2-e276fa349b33.png)
+![D3_lot3_t_test](https://user-images.githubusercontent.com/95504135/162547789-146d0153-9ce1-44b4-860b-d8c23457b999.png)
+
 * briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
 ## Study Design: MechaCar vs Competition
