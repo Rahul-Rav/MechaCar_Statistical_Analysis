@@ -7,11 +7,9 @@
 The variables 'vehicle_wieght', 'spolier_angle', and 'AWD' provide a non-random amount of variance to the mpg values in teh dataset.
 But, 'ground_clearance' and 'vehicle_length' provided random amounts of variance.
 
-* Is the slope of the linear model considered to be zero? Why or why not?
-The slope of the linear model is *not* considered to be zero 
+The slope of the linear model is *not* considered to be zero as shown in the model above, though there are some variables shown to be close to zero.
 
-* Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-* Use a screenshot
+As shown above, this linear model returned a value of 0.7149 or 71% of MPG predictions, which should not be considered as effective enough to predict MPG of prototypes. One could argue that the correlation is indeed high and considered satisfactory, but predictions should be higher.
 
 ## Summary Statistics on Suspension Coils
 ![D2_total_summary](https://user-images.githubusercontent.com/95504135/162497535-6fbcbad6-a9a6-41ce-a1f9-c7790208d3b5.png)
