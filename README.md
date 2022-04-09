@@ -30,12 +30,33 @@ But when we analyze the three lots individually, we see that the design specific
 ![D3_lot2_t_test](https://user-images.githubusercontent.com/95504135/162547783-5feb5e15-f5d0-42bd-b8b2-e276fa349b33.png)
 ![D3_lot3_t_test](https://user-images.githubusercontent.com/95504135/162547789-146d0153-9ce1-44b4-860b-d8c23457b999.png)
 
-* briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+Looking at the data between the three lots, it is clear that there has been an issue in Lot 3 which caused the PSI variance to be outside of Lot 1 and Lot 2's specification results. Further investigation could be required within Lot 3 to find what caused the variance and error and the suspension coils from this Lot should be replaced.
 
 ## Study Design: MechaCar vs Competition
-* Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-### In the description, address the following questions:
-* What metric or metrics are you going to test?
-* What is the null hypothesis or alternative hypothesis?
-* What statistical test would you use to test the hypothesis? And why?
-* What data is needed to run the statistical test?
+Another statistical study that can quantify how the MechCar performs against the competition that would be of interest to the customer would be city fuel efficiency and highway fuel efficiency.
+The dataset should include competitor data for comparison to achieve this analysis.
+The EPA now provides a newer fuel economy ratings with the "gallons-per-100-miles" rating which would be beneficial to give more detail in our analysis since gallons-per-100 miles rating makes for an easier method of comparing fuel efficiency and annual cost of gas.
+
+
+
+1. What metric or metrics are you going to test?
+
+    In order to test for fuel efficiency, other metrics including vehicle weight, horsepower, and fuel tank size should all be tested.
+
+2. What is the null hypothesis or alternative hypothesis?
+
+    *Null Hypothesis:*
+    
+    "There are no differences in fuel economy between MechaCar and competitor vehicles."
+
+    *Alternative Hypothesis:*
+    
+    "The average 'gallons-per-100-miles' will have a positive correlation with vehicles below X weight and X horsepower"
+    
+3.  What statistical test would you use to test the hypothesis? And why?
+
+    In order to determine differences in vehicles, a t-test should be used followed by a linear regression test to identify the factors involved.
+
+4.  What data is needed to run the statistical test?
+
+    Data of MPG from MechaCar and competitor vehicle fuel economy (gallons-per-100-miles) are the primary datasets we need to run this analysis.             Additionally, we would look at MechaCar and competitor vehicle's weight, tank size, and horsepower to execute a statistical test to determine our         hypotheses.
